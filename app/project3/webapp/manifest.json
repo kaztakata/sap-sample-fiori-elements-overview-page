@@ -1,7 +1,7 @@
 {
   "_version": "1.59.0",
   "sap.app": {
-    "id": "project1",
+    "id": "project3",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:ovp",
       "version": "1.14.2",
-      "toolsId": "e6147e84-0915-4310-a77d-6732c023f800"
+      "toolsId": "92d8ebba-d12e-4a6f-ac07-2d774af81d1a"
     },
     "dataSources": {
       "mainService": {
@@ -64,7 +64,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "project1.i18n.i18n"
+          "bundleName": "project3.i18n.i18n"
         }
       },
       "mainModel": {
@@ -96,8 +96,19 @@
     "containerLayout": "resizable",
     "enableLiveFilter": true,
     "considerAnalyticalParameters": false,
-    "cards": {},
-    "globalFilterControlType": "MacroFilterBar"
+    "cards": {
+      "list01": {
+        "template": "sap.ovp.cards.v4.list",
+        "model": "mainModel",
+        "settings": {
+          "entitySet": "Books",
+          "title": "{{list01_title}}",
+          "annotationPath": "com.sap.vocabularies.UI.v1.LineItem#list01"
+        }
+      }
+    },
+    "globalFilterControlType": "MacroFilterBar",
+    "chartSettings": {}
   },
   "sap.fiori": {
     "registrationIds": [],

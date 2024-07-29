@@ -1,24 +1,24 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Fri Jul 26 2024 08:12:14 GMT+0900 (Japan Standard Time)|
+|**Generation Date and Time**<br>Mon Jul 29 2024 09:56:55 GMT+0900 (Japan Standard Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.14.2|
 |**Generation Platform**<br>Visual Studio Code|
 |**Template Used**<br>Overview Page V4|
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/catalog/|
-|**Module Name**<br>project1|
+|**Module Name**<br>project2|
 |**Application Title**<br>App Title|
 |**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.126.1|
+|**UI5 Version**<br>1.124.2|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
 |**FilterEntity Type**<br>Books|
 
-## project1
+## project2
 
 An SAP Fiori application.
 
@@ -26,7 +26,7 @@ An SAP Fiori application.
 
 -   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  In order to launch the generated app, simply start your CAP project and navigate to the following location in your browser:
 
-http://localhost:4004/project1/webapp/index.html
+http://localhost:4004/project2/webapp/index.html
 
 #### Pre-requisites:
 
